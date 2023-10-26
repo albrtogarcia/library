@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Card > matches snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-header"
+  >
+    <Icon
+      name="Test"
+    />
+    <h3
+      className="card-title"
+    >
+      Test
+    </h3>
+  </div>
+  <div
+    className="card-body"
+  >
+    Test
+  </div>
+</div>
+`;

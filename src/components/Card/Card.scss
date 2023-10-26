@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--legacyDisplay, 1rem);
+  border: 1px solid var(--border, #E2E8F0);
+  background: var(--white, #FFF);
+
+  &-header {
+    display: flex;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+  }
+}

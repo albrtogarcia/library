@@ -1,0 +1,63 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Sidebar > matches snapshot 1`] = `
+<div
+  className="sidebar"
+>
+  <div
+    className="sidebar-header"
+  >
+    <h3
+      className="sidebar-title"
+    >
+      Filtros
+    </h3>
+    <Icon
+      name="filter"
+    />
+  </div>
+  <div
+    className="sidebar-filters"
+  >
+    <Input
+      label="Ubicación"
+    />
+    <Blueprint5.FormGroup
+      label="Anunciante"
+      labelFor="user-email"
+    >
+      <Blueprint5.InputGroup
+        className="form-control"
+        id="user-email"
+        type="email"
+      />
+    </Blueprint5.FormGroup>
+    <Blueprint5.FormGroup
+      label="Tipo de publicidad"
+      labelFor="user-email"
+    >
+      <Blueprint5.InputGroup
+        className="form-control"
+        id="user-email"
+        type="email"
+      />
+    </Blueprint5.FormGroup>
+    <Blueprint5.FormGroup
+      label="Tipo de negociación"
+      labelFor="user-email"
+    >
+      <Blueprint5.InputGroup
+        className="form-control"
+        id="user-email"
+        type="email"
+      />
+    </Blueprint5.FormGroup>
+  </div>
+  <Blueprint5.Button
+    fill={true}
+    intent="primary"
+  >
+    Filtrar
+  </Blueprint5.Button>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NoMatch > matches snapshot 1`] = `
+<div
+  className="nomatch"
+>
+  <h2>
+    404 - Not found
+  </h2>
+</div>
+`;

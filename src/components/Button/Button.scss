@@ -1,0 +1,25 @@
+// basic button style
+.btn {
+  color: var(--white, #FFF);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  border: none;
+  display: inline-flex;
+  height: 2.5rem;
+  padding: 0.5rem 1.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 0.25rem;
+  background: var(--brand-blue, #0189D5);
+
+  .icon {
+    width: 1em;
+    height: 1em;
+  }
+
+  &:hover {
+    background: var(--brand-blue-hover, #0077B5);
+  }
+}
