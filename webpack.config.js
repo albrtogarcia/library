@@ -61,7 +61,9 @@ module.exports = {
       name: 'lib',
       filename: 'remoteEntry.js',
       exposes: {
-        './App': './src/App',
+        './Alert': './src/components/Alert/Alert',
+        './Badge': './src/components/Badge/Badge',
+        './Button': './src/components/Button/Button',
       },
       shared: {
         ...deps,
