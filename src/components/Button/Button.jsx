@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './Button.scss'
 
-export const Button = ({ type, children, handleClick }) => (
+const Button = ({ type, children, handleClick }) => (
   <button className={`btn btn-${type}`} onClick={handleClick}>
     {children}
   </button>
@@ -13,3 +13,5 @@ Button.propTypes = {
   children: PropTypes.node.isRequired,
   handleClick: PropTypes.func,
 }
+
+export default Button

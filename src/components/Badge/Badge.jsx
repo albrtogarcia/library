@@ -1,9 +1,12 @@
+import React from 'react'
 import PropTypes from 'prop-types'
 import './Badge.scss'
 
-export const Badge = ({ type, text }) => <span className={`badge badge-${type}`}>{text}</span>
+const Badge = ({ type, text }) => <span className={`badge badge-${type}`}>{text}</span>
 
 Badge.propTypes = {
   type: PropTypes.oneOf(['success', 'warning', 'danger', 'info']),
-  text: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
 }
+
+export default Badge
