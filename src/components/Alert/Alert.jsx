@@ -1,21 +1,18 @@
+import React from 'react'
 import PropTypes from 'prop-types'
-import { Icon } from '../Icon/Icon'
+import IconInfo from '../../assets/icon/info.svg'
 import './Alert.scss'
 
-export const Alert = ({ type, title, text }) => {
+const Alert = ({ type, title, text }) => {
   let header
 
   if (title) {
-    header = (
-      <h5 is className="alert-title">
-        {title}
-      </h5>
-    )
+    header = <h5 className="alert-title">{title}</h5>
   }
   return (
     <div className={`alert alert-${type}`}>
       <div className="alert-icon">
-        <Icon name={type} />
+        <IconInfo />
       </div>
       <div className="alert-content">
         {header}
@@ -28,5 +25,7 @@ export const Alert = ({ type, title, text }) => {
 Alert.propTypes = {
   type: PropTypes.oneOf(['success', 'warning', 'danger', 'info']),
   title: PropTypes.string,
-  text: PropTypes.string
+  text: PropTypes.string,
 }
+
+export default Alert

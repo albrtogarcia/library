@@ -2,7 +2,7 @@ import React from 'react'
 import { Dashboard } from './layouts/Dashboard/Dashboard'
 import './App.scss'
 
-import { Button } from './components'
+import Button from './components/Button/Button'
 
 const App = () => {
   return (
