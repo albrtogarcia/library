@@ -12,6 +12,7 @@ build
 node_modules
 *.local
 package-lock.json
+yarn.lock
 
 # Editor & OS
 .vscode/*
