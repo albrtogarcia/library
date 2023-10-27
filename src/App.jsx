@@ -7,7 +7,7 @@ import { Button } from './components'
 const App = () => {
   return (
     <Dashboard>
-      <h1 className="page-title">Buttons</h1>
+      <h1 className="content-header">Buttons</h1>
       <Button>Click</Button>
     </Dashboard>
   )
